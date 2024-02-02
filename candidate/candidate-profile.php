@@ -86,7 +86,7 @@ $(document).ready(function(){
                                 <div class="col-sm-6">
                                     <div class="mb-3">
                                         <label for="pxp-candidate-location" class="form-label">Location</label>
-                                        <input type="tel" id="pxp-candidate-location" class="form-control" placeholder="E.g. San Francisco, CA" value="<?php echo $row['location'] ?>" name="location" disabled>
+                                        <input type="tel" id="pxp-candidate-location" class="form-control" placeholder="San Francisco, CA" value="<?php echo $row['location'] ?>" name="location" disabled>
                                     </div>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@ $(document).ready(function(){
                     </div>
                 </form>
             </div>
-
+              
             <?php include 'footer.php' ?>
         </div>
 
