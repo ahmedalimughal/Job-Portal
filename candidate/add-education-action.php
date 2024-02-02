@@ -23,7 +23,7 @@ VALUES
     if (mysqli_query($conn, $sql)) 
 
     {
-        // Data inserted successfully
+        // Data inserted successfully here
          header("location: candidate-education?sucessfull= Your education has been added successfully.");
     	//echo "Data inserted successfully";
     } 
@@ -31,7 +31,7 @@ VALUES
     else 
 
     {
-        // If there's an error in the SQL query
+        // If there's an error in the SQL query here
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
 }
